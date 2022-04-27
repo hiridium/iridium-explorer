@@ -1,0 +1,14 @@
+# Define your Iridium node credentials below.
+
+default.name=iridium                   # name to display in the web interface
+default.rpchost=127.0.0.1              # IP address of Iridium node
+default.rpcsecure=0                    # set to 1 to access RPC via https (e.g. for Iridium on Azure)
+default.rpcport=6746                  # usually default-rpc-port from params.dat
+default.rpcuser=iridiumrpc          # username for RPC from iridiun.conf
+default.rpcpassword=EiqutZgS3EpmzVw2vpYXyvQDnfP5ernbZL3G1FwERE78                   # password for RPC from iridiun.conf
+
+# You can configure support for other nodes using a word other than 'default':
+#
+# another.name=...
+# another.rpchost=...
+# ...etc...
